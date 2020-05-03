@@ -11,5 +11,10 @@ public class GradeControl
     public static void main( String[] args )
     {
         System.out.println( "This file is a file to show changes in the Version Control Branching assignment" );
+
+        int grade = 60;
+
+        if(grade > 90)
+        	System.out.println("Success!");
     }
 }

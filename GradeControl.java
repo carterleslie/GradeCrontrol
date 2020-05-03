@@ -19,6 +19,11 @@ public class GradeControl
         if(grade > 90)
         	System.out.println("Success!");
         else
+        {
+        	System.out.println("Fail! Do more extra credit!");
         	grade += 5;
+        }
+
+        System.out.println("Grade after extra credit: " + grade);
     }
 }

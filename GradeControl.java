@@ -21,9 +21,5 @@ public class GradeControl
         	System.out.println("You are failing!");
         	grade += 5;
         }
-        else if(grade < 70)
-        {
-        	System.out.println("You have a C, that's okay I guess.");
-        }
     }
 }

@@ -12,11 +12,14 @@ public class GradeControl
     {
         System.out.println( "This file is a file to show changes in the Version Control Branching assignment" );
 
-        int grade = 60;
+        int grade = 59;
 
         if(grade > 90)
         	System.out.println("Success!");
-        else
+        else if(grade < 60)
+        {
+        	System.out.println("You are failing!");
         	grade += 5;
+        }
     }
 }

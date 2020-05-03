@@ -14,6 +14,8 @@ public class GradeControl
 
         int grade = 60;
 
+        System.out.println("Initial Grade: " + grade);
+
         if(grade > 90)
         	System.out.println("Success!");
         else

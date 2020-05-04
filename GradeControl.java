@@ -20,5 +20,7 @@ public class GradeControl
         	System.out.println("Fail! Do some extra credit!")
         	grade += 5;
         }
+
+        System.out.println("More extra credit available!");
     }
 }

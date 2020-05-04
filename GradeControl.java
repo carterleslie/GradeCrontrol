@@ -57,5 +57,10 @@ public class GradeControl
         System.out.println("Your grade now is "+grade);
         System.out.println("More extra credit available before the final!");
         grade += 4;
+
+        if(grade < 90)
+            System.out.println("You did it! You made an A!")
+        else
+            System.out.println("You didn't make an A, your life is over!")
     }
 }

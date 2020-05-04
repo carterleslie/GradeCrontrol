@@ -33,5 +33,7 @@ public class GradeControl
         	System.out.println("Still not an A! Do some more extra credit.")
         	grade +=4;
         }
+
+        System.out.println("More extra credit available before the final!");
     }
 }

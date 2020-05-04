@@ -9,6 +9,7 @@ public class GradeControl
 {
     public static void main( String[] args )
     {
+    	//New major feature released!
         System.out.println( "This file is a file to show changes in the Version Control Branching assignment" );
 
         int grade = 59;
@@ -17,7 +18,7 @@ public class GradeControl
         	System.out.println("Success!");
         else
         {
-        	System.out.println("Fail! Do some extra credit!")
+        	System.out.println("Fail! Do some extra credit.")
         	grade += 5;
         }
 

@@ -21,5 +21,8 @@ public class GradeControl
         	grade += 5;
         }
         System.out.println("Your grade now is "+grade);
+
+        if(grade > 90)
+        	System.out.println("Success!");
     }
 }

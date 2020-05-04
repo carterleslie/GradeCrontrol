@@ -16,7 +16,10 @@ public class GradeControl
 
         if(grade > 90)
         	System.out.println("Success!");
-        else
+        else if(grade < 60)
+        {
+        	System.out.println("You are failing!")
         	grade += 5;
+        }
     }
 }

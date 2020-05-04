@@ -21,5 +21,10 @@ public class GradeControl
         	System.out.println("You are failing!")
         	grade += 5;
         }
+        else if (grade < 80)
+        {
+        	System.out.println("your grade is a C")
+        	grade += 7
+        }
     }
 }

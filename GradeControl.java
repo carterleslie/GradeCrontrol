@@ -22,5 +22,6 @@ public class GradeControl
         }
 
         System.out.println("More extra credit available!");
+        grade += 3;
     }
 }

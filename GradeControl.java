@@ -23,12 +23,14 @@ public class GradeControl
         }
 
         System.out.println("Your grade now is "+grade);
-         System.out.println("More extra credit available!");
+        System.out.println("More extra credit available!");
         grade += 3;
       
         if(grade > 90)
         	System.out.println("Success!");
         else
         	grade += 5;
+
+        System.out.println("Your grade now is "+grade);
     }
 }

@@ -30,10 +30,12 @@ public class GradeControl
         	System.out.println("Success!");
         else
         {
-        	System.out.println("Still not an A! Do some more extra credit.")
-        	grade +=4;
+          System.out.println("Fail! Do some extra credit.")
+        	grade += 5;
         }
 
+        System.out.println("Your grade now is "+grade);
         System.out.println("More extra credit available before the final!");
+        grade += 4
     }
 }
